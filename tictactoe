@@ -58,3 +58,32 @@ while " " in board:
         show()
         print("Computer Wins!")
         break
+o/p
+  |   |  
+---------
+  |   |  
+---------
+  |   |  
+Enter position (1-9): 1
+Computer chose: 5
+X |   |  
+---------
+  | O |  
+---------
+  |   |  
+Enter position (1-9): 3
+Computer chose: 6
+X |   | X
+---------
+  | O | O
+---------
+  |   |  
+Enter position (1-9): 2
+X | X | X
+---------
+  | O | O
+---------
+  |   |  
+You Win
+
+
