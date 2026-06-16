@@ -23,3 +23,26 @@ j2 = int(input("Capacity of Jug 2: "))
 goal = int(input("Goal Amount: "))
 
 water_jug(j1, j2, goal)
+
+Start
+↓
+(0,0)
+Fill Jug 1
+↓
+(4,0)
+Pour into Jug 2
+↓
+(1,3)
+Empty Jug 2
+↓
+(1,0)
+Pour remaining water
+↓
+(0,1)
+Fill Jug 1
+↓
+(4,1)
+Pour into Jug 2
+↓
+(2,3)
+Goal Achieved!
