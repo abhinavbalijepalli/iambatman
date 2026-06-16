@@ -1,0 +1,25 @@
+def water_jug(j1, j2, goal):
+    x, y = 0, 0
+
+    while x != goal and y != goal:
+        print((x, y))
+
+        if x == 0:
+            x = j1              # Fill Jug 1
+
+        elif y == j2:
+            y = 0               # Empty Jug 2
+
+        else:
+            transfer = min(x, j2 - y)
+            x = x - transfer    # Pour Jug 1 → Jug 2
+            y = y + transfer
+
+    print((x, y))
+    print("Goal Achieved!")
+
+j1 = int(input("Capacity of Jug 1: "))
+j2 = int(input("Capacity of Jug 2: "))
+goal = int(input("Goal Amount: "))
+
+water_jug(j1, j2, goal)
